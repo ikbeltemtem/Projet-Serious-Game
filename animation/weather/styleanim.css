@@ -1,0 +1,54 @@
+#fabrizio {
+	border-top: 100px solid black; 
+	border-right: 63px solid transparent;
+	width: 0;
+	transform: scale(.33);
+	transform-origin: 0 0;
+	margin: 20px;
+	opacity:.6;
+    display: none;
+}
+#fabrizio:before {
+	background: black;
+	width: 20px;
+	height: 30px;
+	content: '';
+	display: block;
+	transform: skewX(-32deg);
+	position: relative;
+	top: -64px;
+	left: 30px;
+}
+#fabrizio:after {
+	background: black;
+	width: 40px;
+	height: 36px;
+	content: '';
+	display: block;
+	transform: skewX(-32deg);
+	position: relative;
+	top: -130px;
+	left: 50px;
+}
+a { 
+  position: absolute;
+  top: 30px;
+  left: 60px;
+  color: #777;
+  text-decoration: none;
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  display: none;
+}
+
+.container {
+	background: linear-gradient(left, #00BBFF, #00BBFF 14.3%, #2EB5E5 14.3%, #2EB5E5 28.6%, #E6E6E6 28.6%, #E6E6E6 42.9%, #F3D166 42.9%, #F3D166 57.2%, #222233 57.2%, #222233 71.5%, #444444 71.5%, #444444 85.8%, #85DB8C 85.8%);
+	transform: scale(.9);
+	width: 1200px;
+	position: absolute;
+	height: 210px;
+	left: 50%;
+	top: 50%;
+	margin: -65px -600px;
+}
