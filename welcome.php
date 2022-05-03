@@ -74,9 +74,9 @@ if (!isset($_SESSION['username'])) {
           <li class="dropdown"><a href="#"><span>Categories</span> <i class="bi bi-chevron-down"></i></a>
             <ul style="background-color:white;">
   
-              <li><a href="#"><img style="width: 35px" src="https://cdn-icons.flaticon.com/png/512/1995/premium/1995171.png?token=exp=1648714390~hmac=8bb9e6c5a26950ac4cc10dd8949f1f1f">Environnement</a></li>
+              <li><a href="animation/environnement/index.html"><img style="width: 35px" src="https://cdn-icons.flaticon.com/png/512/1995/premium/1995171.png?token=exp=1648714390~hmac=8bb9e6c5a26950ac4cc10dd8949f1f1f">Environnement</a></li>
               <li><a href="#"><img style="width: 35px" src="https://cdn-icons-png.flaticon.com/512/547/547415.png">Astronomy</a></li>
-              <li><a href="#"><img style="width: 35px" src="https://cdn-icons-png.flaticon.com/512/2076/2076783.png">Weather</a></li>
+              <li><a href="animation/weather/index.html"><img style="width: 35px" src="https://cdn-icons-png.flaticon.com/512/2076/2076783.png">Weather</a></li>
             </ul>
           </li>
           <li class="dropdown"><a href="#"><span>Me</span> <i class="bi bi-chevron-down"></i></a>
