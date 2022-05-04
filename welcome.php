@@ -62,7 +62,7 @@ if (!isset($_SESSION['username'])) {
   <header id="header" class="fixed-top ">
     <div class="container d-flex align-items-center justify-content-between">
 
-      <h1 class="logo"><a href="Tempo/index.html" style="color:rgb(81, 179, 42);"><img style="width:50px;" src="https://cdn-icons-png.flaticon.com/512/1087/1087191.png"> | EcoQuiz</a></h1>
+      <h1 class="logo"><a href="Tempo/index.html" style="color:rgb(81, 179, 42);"><img style="width:50px;" src="uni.png"> | UniQuiz</a></h1>
       <!-- Uncomment below if you prefer to use an image logo -->
       <!-- <a href="index.html" class="logo"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
 
@@ -74,15 +74,15 @@ if (!isset($_SESSION['username'])) {
           <li class="dropdown"><a href="#"><span>Categories</span> <i class="bi bi-chevron-down"></i></a>
             <ul style="background-color:white;">
   
-              <li><a href="animation/environnement/index.html"><img style="width: 35px" src="https://cdn-icons.flaticon.com/png/512/1995/premium/1995171.png?token=exp=1648714390~hmac=8bb9e6c5a26950ac4cc10dd8949f1f1f">Environnement</a></li>
-              <li><a href="#"><img style="width: 35px" src="https://cdn-icons-png.flaticon.com/512/547/547415.png">Astronomy</a></li>
+              <li><a href="animation/environnement/index.html"><img style="width: 35px" src="envi.png">Environnement</a></li>
+              <li><a href="animation/space/index.html"><img style="width: 35px" src="sp.png">Astronomy</a></li>
               <li><a href="animation/weather/index.html"><img style="width: 35px" src="https://cdn-icons-png.flaticon.com/512/2076/2076783.png">Weather</a></li>
             </ul>
           </li>
           <li class="dropdown"><a href="#"><span>Me</span> <i class="bi bi-chevron-down"></i></a>
             <ul style="background-color:white;">
   
-              <li><a href="#"><?php echo "<h1>" . $_SESSION['username'] . "</h1>"; ?></a></li>
+              <li><a href="#"><?php echo  $_SESSION['username'] ; ?></a></li>
               <li><a href="logout.php">Logout</a></li>
               
             </ul>
@@ -102,7 +102,7 @@ if (!isset($_SESSION['username'])) {
   <section id="hero">
     
     <div class="hero-container">
-      <h3>Welcome to <strong style="color: rgb(81, 179, 42);">EcoQuiz</strong></h3>
+      <h3>Welcome to <strong style="color: rgb(81, 179, 42);">UniQuiz</strong></h3>
       <h1>The best game to learn while having fun</h1>
       <h2>In this quiz you will get to learn more about environment and space while devolping fun pictures</h2>
       <a href="#services" class="btn-get-started scrollto">Launch the Game</a>
@@ -143,7 +143,7 @@ if (!isset($_SESSION['username'])) {
       </div>
     </section>
 
-    <!-- ======= Services Section ======= -->
+    <!-- ======= categories Section ======= -->
     <section id="services" class="services">
       <div class="container">
 
@@ -156,7 +156,7 @@ if (!isset($_SESSION['username'])) {
           <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
             <div class="icon-box" style="width: 300px; background-color: #e2fcd8;">
 
-              <div class="icon"><img src="https://cdn-icons.flaticon.com/png/512/1995/premium/1995171.png?token=exp=1648714390~hmac=8bb9e6c5a26950ac4cc10dd8949f1f1f" style="width: 100px;"></div>
+              <div class="icon"><img src="envi.png" style="width: 100px;"></div>
               <h4 class="title"><a href="animation/environnement/index.html">Environnement</a></h4>
               <p class="description"></p>
             </div>
@@ -164,7 +164,7 @@ if (!isset($_SESSION['username'])) {
 
           <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
             <div class="icon-box" style="width: 300px; background-color: #e2fcd8;">
-              <div class="icon"><img style="width:100px" src="https://cdn-icons-png.flaticon.com/512/547/547415.png"></div>
+              <div class="icon"><img style="width:100px" src="sp.png"></div>
               <h4 class="title"><a href="animation/space/index.html">Astronomy </a></h4>
             </div>
           </div>
@@ -277,9 +277,9 @@ if (!isset($_SESSION['username'])) {
           <div class="col-lg-3 col-md-6 footer-links">
             <h4>Categories</h4>
             <ul>
-              <li><i class="bx bx-chevron-right"></i> <a href="file.html">Environnement</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Astronomy</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Weather</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="animation/environnement/index.html">Environnement</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="animation/space/index.html">Astronomy</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="animation/weather/index.html">Weather</a></li>
             </ul>
           </div>
 
@@ -292,7 +292,7 @@ if (!isset($_SESSION['username'])) {
 
       <div class="me-md-auto text-center text-md-start">
         <div class="copyright">
-          &copy; Copyright <strong><span>EcoQuiz</span></strong>. All Rights Reserved
+          &copy; Copyright <strong><span>UniQuiz</span></strong>. All Rights Reserved
         </div>
         <div class="credits">
           <!-- All the links in the footer should remain intact. -->
