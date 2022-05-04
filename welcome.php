@@ -165,7 +165,7 @@ if (!isset($_SESSION['username'])) {
           <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
             <div class="icon-box" style="width: 300px; background-color: #e2fcd8;">
               <div class="icon"><img style="width:100px" src="https://cdn-icons-png.flaticon.com/512/547/547415.png"></div>
-              <h4 class="title"><a href="">Astronomy </a></h4>
+              <h4 class="title"><a href="animation/space/index.html">Astronomy </a></h4>
             </div>
           </div>
 

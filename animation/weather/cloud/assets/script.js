@@ -2,67 +2,121 @@ const questions = [
 
     {   
         question:
-         "What is evaporation?"
-        ,
-        optionA: "Water freezes",
-        optionB: "Water vapor meets cold air and changes back into liquid.",
-        optionC: "Water gets warm and changes from liquid water to water vapor",
-        optionD: "Plants take in water from the soil.",
-        correctOption: "optionC",
-        imagee:'assets/img/Evaporation.png',
-        identt:'Evaporation',
-        doc: "Evaporation is when a liquid changes into a gas. Liquid water evaporates to become a gas called water vapor.Evaporation happens when a liquid is heated. The heat gives the iquid’s molecules more energy. This energy causes the molecules to move faster. If they gain enough energy, the molecules near the surface break away. These molecules escape the liquid and enter the air as gas."
-        
-    },
-
-    {
-        question: "What is the correct term for moisture that falls to the ground from clouds?",
-        optionA: "condensation",
-        optionB: " precipitation",
-        optionC: "hibernation",
-        optionD: "evaporation",
-        correctOption: "optionB",
-        imagee:'assets/img/precipitation.png',
-        identt:'precipitation',
-        doc: 'Precipitation occurs when warm air pushes water vapor high into the atmosphere. When it cools, the vapor condenses into water droplets that can stay liquid or freeze into hail or snowflakes. If enough condensation collects to saturate the air, it will fall back to earth as precipitation.'
-    },
-
-    {
-        question: "What is the correct term for plants releasing water from their leaves, which then evaporates?",
-        optionA: "condensation",
-        optionB: "evaporation",
-        optionC: "precipitation",
-        optionD: "transpiration",
-        correctOption: "optionD",
-        imagee:'assets/img/transpiration.png',
-        identt:'transpiration',
-        doc: 'the evaporation of water from plants, especially leaves. It is a type of translocation and part of the water cycle. The amount of water lost by a plant depends on its size, the light intensity, temperature, humidity, wind speed, and soil water supply.The process of Transpiration helps in regulating temperature in the plant.'
-    },
-
-    {
-        question: "What is the correct term for rising water vapor meeting colder air and turning back into water droplets?",
-        optionA: "transpiration",
-        optionB: "precipitation",
-        optionC: "condensation",
-        optionD: "dehydration",
-        correctOption: "optionC",
-        imagee:'assets/img/condensation.png',
-        identt:'condensation',
-        doc: 'Condensation is the process through which the physical state of matter changes from the gaseous phase into the liquid phase.It happens when molecules of water vapor cool and collect together as liquid water.'
-        
-    },
-
-    {
-        question: "What is Infiltration ?",
-        optionA: "the process by which water on the ground surface enters the soil.",
-        optionB: "the process by which water changes from a liquid to a gas vapor.",
-        optionC: "the process of water that flows over the land surface.",
-        optionD: "rain, snow, sleet, or hail.",
+         "What type of clouds that look like floating cotton balls? It's usually a sign of good weather.?",
+        optionA: "Cumulus",
+        optionB: "Cirrus",
+        optionC: "Nimbostratus",
+        optionD: "Stratus.",
         correctOption: "optionA",
-        imagee:'assets/img/infiltration.png',
-        identt:'infiltration',
-        doc: "Infiltration happens when water soaks into the soil from the ground level. It moves underground and moves between the soil and rocks. Some of the water will be soaked up by roots to help plants grow. The plant's leaves eventually release the water into the air through the plant's pours as waste."
-    }
+        imagee:'assets/img/cumulus.png',
+        identt:'cumulus',
+        doc:"Cumulus clouds are the puffy clouds that look like puffs of cotton. Cumulus clouds that do not get very tall are indicators of fair weather. If they do grow tall, they can turn into thunderstorms. The bottom of cumulus clouds are fairly close to the ground.",
+        
+    },
+
+    {
+        question: "Which type of clouds bring rain?",
+        optionA: "Cumulus",
+        optionB: "Contrails",
+        optionC: "Nimbostratus",
+        optionD: "Cirrus",
+        correctOption: "optionC",
+        imagee:'assets/img/Nimbostratus.png',
+        identt:'nimostratus',
+        doc: "Nimbostratus clouds are dark, grey, featureless layers of cloud, thick enough to block out the Sun. Producing persistent rain, these clouds are often associated with frontal systems provided by mid-latitude cyclones. These are probably the least picturesque of all the main cloud types."
+    },
+
+    {
+        question: "These are high clouds that are composed of ice crystals:",
+        optionA: "Cumulus",
+        optionB: " Nimbostratus",
+        optionC: "Altocumulus",
+        optionD: "Cirrus",
+        correctOption: "optionD",
+        imagee:'assets/img/cirrus.png',
+        identt:'cirrus',
+        doc: 'Cirrus clouds are thin clouds made of ice crystals that form very high in the sky, above 18,000 feet. These clouds are the highest clouds, and the temperature at the height where they form is about 36 degrees Celsius below zero, which is why they are made of ice crystals.'
+    },
+
+    {
+        question: "What do stratocumulus clouds indicate?",
+        optionA: "Snow",
+        optionB: "No rain",
+        optionC: "Storms",
+        optionD: "Rare but light precipitation",
+        correctOption: "optionD",
+        imagee:'assets/img/stratocumulus.png',
+        identt:'stratocumulus',
+        doc:"Stratocumulus clouds are low, puffy and gray. Most form in rows with blue sky visible in between them. Rain rarely occurs with stratocumulus clouds, however, they can turn into nimbostratus clouds."
+        
+    },
+
+    {
+        question: "The clouds associated with thunderstorms are called…",
+        optionA: "Cirrus",
+        optionB: "Stratus",
+        optionC: "Cumulonimbus",
+        optionD: "Cumulus ",
+        correctOption: "optionC",
+        imagee:'assets/img/cumulonimbus.png',
+        identt:'cumulonimbus',
+        doc: "Cumulonimbus clouds are large, tall clouds that are dark on the bottom and usually produce rain and thunderstorms. In fact, they are sometimes called thunderstorm clouds, but they can also bring different kinds of weather, including hail and snow showers, which might even get you out of school for a snow day!"
+    },
+    {
+        question: "These clouds appear in blanket-like layers.",
+        optionA: "Cirrus",
+        optionB: "Stratus",
+        optionC: "Cumulonimbus",
+        optionD: "Cumulus ",
+        correctOption: "optionB",
+        imagee:'assets/img/stratus.png',
+        identt:'stratus',
+        doc: "Stratus clouds are low altitude gray clouds that make a flat base. The name comes from the Latin word stratus, which means to stretch or extend. You can see stratus clouds as thick cloud blankets near the sea. They are sometimes called high fogs. Light rain and drizzle often fall from stratus clouds."
+    },
+    {
+        question: "Clouds that are condensation left behind by jet planes:",
+        optionA: "Cirrus ",
+        optionB: "Altostratus",
+        optionC: "Contrails",
+        optionD: "Fog ",
+        correctOption: "optionC",
+        imagee:'assets/img/contrails.png',
+        identt:'contrails',
+        doc: "Contrails form when hot humid air from jet exhaust mixes with environmental air of low vapor pressure and low temperature. The mixing is a result of turbulence generated by the engine exhaust."
+    },
+    {
+        question: " What type of cloud is an altocumulus cloud?",
+        optionA: "Low-level",
+        optionB: "Mid-level",
+        optionC: "High-level",
+        optionD: "Ice",
+        correctOption: "optionB",
+        imagee:'assets/img/altocumulus.png',
+        identt:'altocumulus',
+        doc: "Altocumulus clouds are mid level clouds that are made of water droplets and appear as gray puffy masses."
+    },
+    {
+        question: "What are the clouds nicknamed 'mackerel sky' and tell us that a storm is on the way?",
+        optionA: "Cirrus ",
+        optionB: "Cumulus",
+        optionC: "Cirrocumulus",
+        optionD: "Stratus ",
+        correctOption: "optionC",
+        imagee:'assets/img/cirrocumulus.png',
+        identt:'cirrocumulus',
+        doc: "Cirrocumulus clouds appear as small, rounded white puffs that appear in long rows. The small ripples in the cirrocumulus clouds sometime resemble the scales of a fish. Cirrocumulus clouds are usually seen in the winter and indicate fair, but cold weather. In tropical regions, they may indicate an approaching hurricane."
+    },
+    {
+        question: "Cloud from the middle level of the troposphere forming a vast veil, however, allowing the sun to be seen",
+        optionA: "Stratus",
+        optionB: " Altostratus",
+        optionC: "cirrocumulus",
+        optionD: "Cumulus",
+        correctOption: "optionB",
+        imagee:'assets/img/altostartus.png',
+        identt:'altostratus',
+        doc: "Altostratus clouds are gray or blue-gray mid level clouds composed of ice crystals and water droplets. The clouds usually cover the entire sky. In the thinner areas of the clouds, the sun may be dimly visible as a round disk. Altostratus clouds often form ahead of storms with continuous rain or snow."
+    },
 
     
 
@@ -75,7 +129,7 @@ let shuffledQuestions = [] //empty array to hold shuffled selected questions out
 function handleQuestions() { 
     //function to shuffle and push 10 questions to shuffledQuestions array
 //app would be dealing with 10questions per session
-    while (shuffledQuestions.length <= 4) {
+    while (shuffledQuestions.length <= 9) {
         const random = questions[Math.floor(Math.random() * questions.length)]
         if (!shuffledQuestions.includes(random)) {
             shuffledQuestions.push(random)
@@ -84,7 +138,7 @@ function handleQuestions() {
 }
 
 let questionNumber = 1 //holds the current question number
-let playerScore = 100  //holds the player score
+let playerScore = 50  //holds the player score
 let wrongAttempt = 0 //amount of wrong answers picked by player
 let indexNumber = 0 //will be used in displaying next question
 // function for displaying next question in the array to dom
@@ -127,7 +181,7 @@ function checkForAnswer() {
     options.forEach((option) => {
         if (option.checked === true && option.value === currentQuestionAnswer) {
             document.getElementById(correctOption).style.backgroundColor = "green"
-            playerScore++ //adding to player's score
+            playerScore+=100 //adding to player's score
             
             
             setTimeout(() => {
@@ -158,6 +212,7 @@ function checkForAnswer() {
            // document.getElementById(correctOption).style.backgroundColor = "green"
             wrongAttempt++ //adds 1 to wrong attempts 
             //indexNumber++
+            playerScore-=50
             
             //set to delay question number till when next question loads
             document.getElementById('reanswer-modal').style.display = "flex"
@@ -179,7 +234,7 @@ function handleNextQuestion() {
     unCheckRadioButtons()
     //delays next question displaying for a second just for some effects so questions don't rush in on player
     setTimeout(() => {
-        if (indexNumber <= 4) {
+        if (indexNumber <= 9) {
 //displays next question as long as index number isn't greater than 9, remember index number starts from 0, so index 9 is question 10
             NextQuestion(indexNumber)
             

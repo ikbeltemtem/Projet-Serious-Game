@@ -1,70 +1,76 @@
 const questions = [
 
     {   
-        question:
-         "What is evaporation?"
-        ,
-        optionA: "Water freezes",
-        optionB: "Water vapor meets cold air and changes back into liquid.",
-        optionC: "Water gets warm and changes from liquid water to water vapor",
-        optionD: "Plants take in water from the soil.",
-        correctOption: "optionC",
-        imagee:'assets/img/Evaporation.png',
-        identt:'Evaporation',
-        doc: "Evaporation is when a liquid changes into a gas. Liquid water evaporates to become a gas called water vapor.Evaporation happens when a liquid is heated. The heat gives the iquid’s molecules more energy. This energy causes the molecules to move faster. If they gain enough energy, the molecules near the surface break away. These molecules escape the liquid and enter the air as gas."
-        
-    },
-
-    {
-        question: "What is the correct term for moisture that falls to the ground from clouds?",
-        optionA: "condensation",
-        optionB: " precipitation",
-        optionC: "hibernation",
-        optionD: "evaporation",
-        correctOption: "optionB",
-        imagee:'assets/img/precipitation.png',
-        identt:'precipitation',
-        doc: 'Precipitation occurs when warm air pushes water vapor high into the atmosphere. When it cools, the vapor condenses into water droplets that can stay liquid or freeze into hail or snowflakes. If enough condensation collects to saturate the air, it will fall back to earth as precipitation.'
-    },
-
-    {
-        question: "What is the correct term for plants releasing water from their leaves, which then evaporates?",
-        optionA: "condensation",
-        optionB: "evaporation",
-        optionC: "precipitation",
-        optionD: "transpiration",
+        question: "How much plastic ends up in our seas every year?  " ,
+        optionA: "8 pounds",
+        optionB: "8 hundred pounds",
+        optionC: "8 thousand pounds",
+        optionD: "8 million tons",
         correctOption: "optionD",
-        imagee:'assets/img/transpiration.png',
-        identt:'transpiration',
-        doc: 'the evaporation of water from plants, especially leaves. It is a type of translocation and part of the water cycle. The amount of water lost by a plant depends on its size, the light intensity, temperature, humidity, wind speed, and soil water supply.The process of Transpiration helps in regulating temperature in the plant.'
-    },
-
-    {
-        question: "What is the correct term for rising water vapor meeting colder air and turning back into water droplets?",
-        optionA: "transpiration",
-        optionB: "precipitation",
-        optionC: "condensation",
-        optionD: "dehydration",
-        correctOption: "optionC",
-        imagee:'assets/img/condensation.png',
-        identt:'condensation',
-        doc: 'Condensation is the process through which the physical state of matter changes from the gaseous phase into the liquid phase.It happens when molecules of water vapor cool and collect together as liquid water.'
+        imagee:'assets/img/seaimg/octopus.png',
+        identt:'Image1',
+        doc: "Plastic takes a really long time to break down and dissolve, almost forever! But 8 million tons of it ends up in our oceans every year, where fish and turtles can mistake it for food and swallow it, or accidentally get stuck in it. But you can prevent that by using less plastic, and recycling the plastic that you do use!  "
         
     },
 
     {
-        question: "What is Infiltration ?",
-        optionA: "the process by which water on the ground surface enters the soil.",
-        optionB: "the process by which water changes from a liquid to a gas vapor.",
-        optionC: "the process of water that flows over the land surface.",
-        optionD: "rain, snow, sleet, or hail.",
-        correctOption: "optionA",
-        imagee:'assets/img/infiltration.png',
-        identt:'infiltration',
-        doc: "Infiltration happens when water soaks into the soil from the ground level. It moves underground and moves between the soil and rocks. Some of the water will be soaked up by roots to help plants grow. The plant's leaves eventually release the water into the air through the plant's pours as waste."
-    }
+        question: "Where does most ocean pollution come from?",
+        optionA: "marine activities",
+        optionB: "land activities",
+        optionC: "atmospheric activities",
+        optionD: "both,marine and land activities,it is fairly evenly devided",
+        correctOption: "optionD",
+        imagee:'assets/img/seaimg/fish.png',
+        identt:'Image2',
+        doc: 'more than 80% of all ocean pollution comes from land.Oil from cities and factories washes down and  drains into the ocean,runoff from agricultural fields and lawns carries fertilizer to the sea ,and tons of solid garbage(most of it plastic)winds up bobbing in the ocean. '
+    },
 
-    
+    {
+        question: "Evaluated water temperature can cause corals to do what?",
+        optionA: "grow too quickly",
+        optionB: "bleach",
+        optionC: "eat themselves",
+        optionD: "it has no effect",
+        correctOption: "optionB",
+        imagee:'assets/img/seaimg/coral.png',
+        identt:'Image3',
+        doc: 'Evaluated temperatures trigger mass episodes of bleaching.Bleaching is a process which involves corals ejecting algae,which live in a symbiotic relationship with the corals and lend them their vibrant hue .Bleaching slows coral growth and makes it susceptible to disease.It can even lead to large -scale reef die-offs.'
+    },
+
+    {
+        question: "What animals are most at risk from ocean acidification?",
+        optionA:"shellfish",
+        optionB: "marine mammals",
+        optionC: "bottom-feeding fish",
+        optionD: "sea stars",
+        correctOption: "optionA",
+        imagee:'assets/img/seaimg/dauphin.png',
+        identt:'Image4',
+        doc: 'Ocean acidification”refers to the process of carbonic acid being formed as carbon dioxide dissolves in the ocean.Ocean acidity has already increased more than 30% from pre-industrial levels .This increased acidity inhibits shell growth in animals such as oysters,clams,and scallops.  '
+    },
+
+    {
+        question: "Industrial fishing is thought to have wiped out what percentage of large ,predatory fish.",
+        optionA: "25%",
+        optionB: "55%",
+        optionC: "66%",
+        optionD: "90%",
+        correctOption: "optionC",
+        imagee:'assets/img/seaimg/seaweed.png',
+        identt:'Image5',
+        doc: 'In the 20th century,humans reduced the biomass of predatory fishes by more than two-thirds and most of this alarming decline has occurred since the 1970s.Consumers prefer predatory fish like grouper,tuna,swordfish and sharks to species lower on the food chain'
+    },
+    {
+        question: "What area of the ocean is suffering most from habitat destruction?",
+        optionA: "seafloor",
+        optionB: "Deap sea",
+        optionC: "coasts",
+        optionD: "deep sea and seafloor ",
+        correctOption: "optionC",
+        imagee:'assets/img/seaimg/shellfish.png',
+        identt:'Image6',
+        doc: 'Most areas of the world’s oceans are experiencing habitat loss.But coastal areas,with their closeness to human population centers,have suffered disproportionately and mainly from human activity such as agricultural and industrial development'
+    }
 
 
 ]
@@ -75,7 +81,7 @@ let shuffledQuestions = [] //empty array to hold shuffled selected questions out
 function handleQuestions() { 
     //function to shuffle and push 10 questions to shuffledQuestions array
 //app would be dealing with 10questions per session
-    while (shuffledQuestions.length <= 4) {
+    while (shuffledQuestions.length <= 5) {
         const random = questions[Math.floor(Math.random() * questions.length)]
         if (!shuffledQuestions.includes(random)) {
             shuffledQuestions.push(random)
@@ -87,6 +93,9 @@ let questionNumber = 1 //holds the current question number
 let playerScore = 100  //holds the player score
 let wrongAttempt = 0 //amount of wrong answers picked by player
 let indexNumber = 0 //will be used in displaying next question
+let imagee = ['assets/img/seaimg/coral.png', 'assets/img/seaimg/dauphin.png' , 'assets/img/seaimg/fish.png' , 'assets/img/seaimg/octopus.png' ,'assets/img/seaimg/seaweed.png','assets/img/seaimg/shellfish.png'];
+let identt = ['Image1' , 'Image2','Image3','Image4','Image5','Image6'];
+var i = 0;
 // function for displaying next question in the array to dom
 //also handles displaying players and quiz information to dom
 function NextQuestion(index) {
@@ -130,9 +139,9 @@ function checkForAnswer() {
             playerScore++ //adding to player's score
             
             
-            setTimeout(() => {
+             
             document.getElementById('doc-modal').style.display = "flex"  
-        }, 1000)  
+               
              
                 
             indexNumber++;//adding 1 to index so has to display next question..
@@ -145,6 +154,7 @@ function checkForAnswer() {
             
             document.getElementById(currentQuestion.identt).src= currentQuestion.imagee ;
             document.getElementById("1").innerHTML=currentQuestion.doc;
+           
              
            
           
@@ -179,7 +189,7 @@ function handleNextQuestion() {
     unCheckRadioButtons()
     //delays next question displaying for a second just for some effects so questions don't rush in on player
     setTimeout(() => {
-        if (indexNumber <= 4) {
+        if (indexNumber <= 5) {
 //displays next question as long as index number isn't greater than 9, remember index number starts from 0, so index 9 is question 10
             NextQuestion(indexNumber)
             
