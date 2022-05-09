@@ -60,7 +60,7 @@ const questions = [
         correctOption: "optionA",
         imagee:'assets/img/landimg/flower2.png',
         identt:'Image5',
-        doc: 'documentation5'
+        doc: 'Reusable bags require more energy to produce than common plastic shopping bags. One reusable bag requires the same amount of energy as an estimated 28 traditional plastic shopping bags or eight paper bags.'
     },
     {
         question: "What happens to plastic waste when left in the environment?",
@@ -294,12 +294,12 @@ function handleEndGame() {
 
 //closes score modal, resets game and reshuffles questions
 function closeScoreModal() {
-   questionNumber = 1
+  /* questionNumber = 1
     playerScore= 0
     wrongAttempt = 0
     indexNumber = 0
     shuffledQuestions = []
-    NextQuestion(indexNumber)
+    NextQuestion(indexNumber)*/
     document.getElementById('score-modal').style.display = "none"
 }
 

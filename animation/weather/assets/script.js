@@ -248,12 +248,12 @@ function handleEndGame() {
 
 //closes score modal, resets game and reshuffles questions
 function closeScoreModal() {
-    questionNumber = 1
+   /* questionNumber = 1
     playerScore= 0
     wrongAttempt = 0
     indexNumber = 0
     shuffledQuestions = []
-    NextQuestion(indexNumber)
+    NextQuestion(indexNumber) */ 
     document.getElementById('score-modal').style.display = "none"
 }
 

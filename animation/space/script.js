@@ -5,7 +5,7 @@ const slider = document.querySelector(".slider input");
 const output = document.querySelector("#speed");
 
 // global variables
-let screen, starsElements, starsParams = { speed: 2, number: 300, extinction: 4 };
+let screen, starsElements, starsParams = { speed: 4, number: 300, extinction: 4 };
 
 // run stars
 setupStars();

@@ -1,30 +1,17 @@
 const questions = [
 
-    {   
-        question:
-         "What percentage of earth’s land is covered by forests?"
-        ,
-        optionA: "10",
-        optionB: "31",
-        optionC: "1",
-        optionD: "20",
-        correctOption: "optionB",
-        imagee:'',
-        identt:'Image1',
-        doc: "31% of our planet is covered by forests, which produce oxygen and provide homes for both animals and people. They also give us food, water, clothing, medicine and keep our air clean and breathable"
-        
-    },
+  
 
     {
-        question: "What percentage of trees had humans chopped down?",
-        optionA: "17",
-        optionB: "46",
-        optionC: "21",
-        optionD: "37",
+        question: "What is the Greenhouse effect?",
+        optionA: "when you paint your house green to become an environmentalist",
+        optionB: "when the gases in our atmosphare trap heat and block it from escaping our planet ",
+        optionC: "2The name of climate change legislation that was passed by Congress",
+        optionD: "when you build a greenhouse",
         correctOption: "optionB",
-        imagee:'assets/img/airimg/air1.png',
-        identt:'Image2',
-        doc: 'Be it due to small-scale agriculture and the need for fuelwood or to open up space for large farmlands and cities, humans have cut almost 50% of the world’s trees.'
+        imagee:'assets/img/airimg/trees2.png',
+        identt:'Image3',
+        doc: 'Certain gases – called greenhouse gases –  work like a blanket and trap the Sun’s heat in our planet.3 Like in a greenhouse – where the Sun’s warmth helps plants to grow healthy – greenhouse gases keep the planet warm. Without these gases, we would not be alive.'
     },
 
     {
@@ -34,29 +21,29 @@ const questions = [
         optionC: "90%",
         optionD: "75%",
         correctOption: "optionD",
-        imagee:'assets/img/airimg/trees2.png',
-        identt:'Image3',
+        imagee:'assets/img/airimg/air1.png',
+        identt:'Image2',
         doc: 'Remember how much trash we throw away? Well, 75% of that trash could be recycled instead! That could mean a lot of trash saved from going to the landfill and dumps.'
     },
 
     {
-        question: "How much food is wasted in a year?",
-        optionA: "1.5 Tons",
-        optionB: "2 Tons",
-        optionC: "21.4 Million Tons",
-        optionD: "20 Tons",
+        question: "What are the most environmentally friendly ways to get to school?",
+        optionA: "Bus",
+        optionB: "Car",
+        optionC: "Bike",
+        optionD: "Subway",
         correctOption: "optionC",
         imagee:'assets/img/airimg/bike.png',
         identt:'Image4',
-        doc: 'A whopping 21.5 million tons of food is thrown away each year. If we composted that amount of food to turn it into soil, it would have the same effect as removing 2 million cars off the roads'
+        doc: 'assets/img/airimg/bike.jpg'
     },
 
     {
-        question: "When you go to the supermarket, it's best to...",
-        optionA: "Take your own reusable bag from home. ",
-        optionB: "Buy a reusable bag.",
-        optionC: "Buy a paper bag.",
-        optionD: "Buy a plastic bag.",
+        question: "Every ton of new glass produced generates ...... lbs. of air pollution?",
+        optionA: "27.8 lbs ",
+        optionB: "33.8 lbs",
+        optionC: "20.5 lbs",
+        optionD: "40.5 lbs",
         correctOption: "optionA",
         imagee:'assets/img/airimg/air1.png',
         identt:'Image5',
@@ -71,41 +58,31 @@ const questions = [
         correctOption: "optionA",
         imagee:'assets/img/airimg/poubelle3.png',
         identt:'Image6',
-        doc: 'documentation5'
+        doc: 'Reusable bags require more energy to produce than common plastic shopping bags. One reusable bag requires the same amount of energy as an estimated 28 traditional plastic shopping bags or eight paper bags.'
     },
     {
-        question: "When you go to the supermarket, it's best to...",
-        optionA: "Take your own reusable bag from home. ",
-        optionB: "Buy a reusable bag.",
-        optionC: "Buy a paper bag.",
-        optionD: "Buy a plastic bag.",
+        question: "Which of the following is not the consequence of ozone layer depletion?",
+        optionA: "Tides",
+        optionB: "Cyanobacteria are sensitive to UV radiation and would be affected by its increase.",
+        optionC: "Malignant melanoma-Another form of skin cancer",
+        optionD: "  Increased ultraviolet rays",
         correctOption: "optionA",
         imagee:'assets/img/airimg/ccloud.png',
         identt:'Image7',
-        doc: 'documentation5'
+        doc: 'Ozone depletion can cause increased UV rays, skin cancers and can also affect cyanobacteria'
     },
-    {
-        question: "When you go to the supermarket, it's best to...",
-        optionA: "Take your own reusable bag from home. ",
-        optionB: "Buy a reusable bag.",
-        optionC: "Buy a paper bag.",
-        optionD: "Buy a plastic bag.",
-        correctOption: "optionA",
-        imagee:'assets/img/airimg/ccloud.png',
-        identt:'Image8',
-        doc: 'documentation5'
-    },
+    
 
     {
-        question: "When you go to the supermarket, it's best to...",
-        optionA: "Take your own reusable bag from home. ",
-        optionB: "Buy a reusable bag.",
-        optionC: "Buy a paper bag.",
-        optionD: "Buy a plastic bag.",
-        correctOption: "optionA",
+        question: "Which one was a type of air pollution?",
+        optionA: "oxygen",
+        optionB: "nitrogen dioxide",
+        optionC: "hydrogen",
+        optionD: "particles",
+        correctOption: "optionB",
         imagee:'assets/img/landimg/cloud1.png',
         identt:'Image10',
-        doc: 'documentation5'
+        doc: 'Nitrogen dioxide is part of a group of gaseous air pollutants produced as a result of road traffic and other fossil fuel combustion processes. Its presence in air contributes to the formation and modification of other air pollutants, such as ozone and particulate matter, and to acid rain.'
     }
 
     
@@ -119,7 +96,7 @@ let shuffledQuestions = [] //empty array to hold shuffled selected questions out
 function handleQuestions() { 
     //function to shuffle and push 10 questions to shuffledQuestions array
 //app would be dealing with 10questions per session
-    while (shuffledQuestions.length <= 8) {
+    while (shuffledQuestions.length <= 6) {
         const random = questions[Math.floor(Math.random() * questions.length)]
         if (!shuffledQuestions.includes(random)) {
             shuffledQuestions.push(random)
@@ -227,7 +204,7 @@ function handleNextQuestion() {
     unCheckRadioButtons()
     //delays next question displaying for a second just for some effects so questions don't rush in on player
     setTimeout(() => {
-        if (indexNumber <= 8) {
+        if (indexNumber <= 6) {
 //displays next question as long as index number isn't greater than 9, remember index number starts from 0, so index 9 is question 10
             NextQuestion(indexNumber)
             
@@ -296,12 +273,7 @@ function handleEndGame() {
 
 //closes score modal, resets game and reshuffles questions
 function closeScoreModal() {
-    questionNumber = 1
-    playerScore= 0
-    wrongAttempt = 0
-    indexNumber = 0
-    shuffledQuestions = []
-    NextQuestion(indexNumber)
+   
     document.getElementById('score-modal').style.display = "none"
 }
 

@@ -20,7 +20,7 @@ span a{
 }
 span a:before{
     position: absolute;
-    content: "BUTTON";
+    content: "GO!";
     height: 55px;
     width: 180px;
     display: flex;
@@ -33,7 +33,7 @@ span a:before{
 
 span a:after{
   position: absolute;
-  content: "BUTTON";
+  content: "START";
   height: 55px;
   width: 180px;
   display: flex;
