@@ -84,7 +84,7 @@ function handleQuestions() {
 }
 
 let questionNumber = 1 //holds the current question number
-let playerScore = 100  //holds the player score
+let playerScore = 50 //holds the player score
 let wrongAttempt = 0 //amount of wrong answers picked by player
 let indexNumber = 0 //will be used in displaying next question
 // function for displaying next question in the array to dom
@@ -127,7 +127,7 @@ function checkForAnswer() {
     options.forEach((option) => {
         if (option.checked === true && option.value === currentQuestionAnswer) {
             document.getElementById(correctOption).style.backgroundColor = "green"
-            playerScore++ //adding to player's score
+            playerScore+=100//adding to player's score
             
             
             setTimeout(() => {
@@ -158,6 +158,7 @@ function checkForAnswer() {
            // document.getElementById(correctOption).style.backgroundColor = "green"
             wrongAttempt++ //adds 1 to wrong attempts 
             //indexNumber++
+            playerScore -= 50 
             
             //set to delay question number till when next question loads
             document.getElementById('reanswer-modal').style.display = "flex"

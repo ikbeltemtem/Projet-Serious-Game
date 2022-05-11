@@ -157,7 +157,7 @@ if (!isset($_SESSION['username'])) {
             <div class="icon-box" style="width: 300px; background-color: #e2fcd8;">
 
               <div class="icon"><img src="envi.png" style="width: 100px;"></div>
-              <h4 class="title"><a href="animation/environnement/index.html">Environnement</a></h4>
+              <h4 class="title"><a href="animation/environnement/index.php">Environnement</a></h4>
               <p class="description"></p>
             </div>
           </div>

@@ -133,6 +133,30 @@ body {
     background: #ea9999;
 }
 
+.container .input-group .btn1  {
+    display: block;
+    width: 200px;
+    padding: 15px 20px;
+    text-align: center;
+    border: none;
+    background: #ccf768;
+    outline: none;
+    border-radius: 30px;
+    font-size: 1.2rem;
+    color: #FFF;
+    cursor: pointer;
+    transition: .3s;
+    
+  
+    margin-left: 360px;
+}
+
+.container .input-group .btn1:hover {
+    transform: translateY(-5px);
+    background: #ea9999;
+}
+
+
 .login-register-text {
     color: #111;
     font-weight: 600;

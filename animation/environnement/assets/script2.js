@@ -81,7 +81,7 @@ const questions = [
         optionD: "particles",
         correctOption: "optionB",
         imagee:'assets/img/landimg/cloud1.png',
-        identt:'Image10',
+        identt:'Image8',
         doc: 'Nitrogen dioxide is part of a group of gaseous air pollutants produced as a result of road traffic and other fossil fuel combustion processes. Its presence in air contributes to the formation and modification of other air pollutants, such as ozone and particulate matter, and to acid rain.'
     }
 
@@ -105,7 +105,7 @@ function handleQuestions() {
 }
 
 let questionNumber = 1 //holds the current question number
-let playerScore = 100  //holds the player score
+let playerScore = 50  //holds the player score
 let wrongAttempt = 0 //amount of wrong answers picked by player
 let indexNumber = 0 //will be used in displaying next question
 let image = ['assets/img/landimg/tree', 'assets/img/bleu.png' , 'assets/img/her.png' , 'assets/img/poissonn.png' ,'assets/img/tutle.png'];
@@ -151,13 +151,13 @@ function checkForAnswer() {
     options.forEach((option) => {
         if (option.checked === true && option.value === currentQuestionAnswer) {
             document.getElementById(correctOption).style.backgroundColor = "green"
-            playerScore++ //adding to player's score
+            playerScore+=100//adding to player's score
             
             
-             
+            setTimeout(() => { 
             document.getElementById('doc-modal').style.display = "flex"  
                
-             
+        }, 1000)
                 
             indexNumber++;//adding 1 to index so has to display next question..
             
@@ -182,7 +182,7 @@ function checkForAnswer() {
             document.getElementById(wrongLabelId).style.backgroundColor = "red"
            // document.getElementById(correctOption).style.backgroundColor = "green"
             wrongAttempt++ //adds 1 to wrong attempts 
-            //indexNumber++
+            playerScore-= 50 
             
             //set to delay question number till when next question loads
             document.getElementById('reanswer-modal').style.display = "flex"

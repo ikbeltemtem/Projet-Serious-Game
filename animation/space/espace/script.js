@@ -145,12 +145,10 @@ function handleQuestions() {
 }
 
 let questionNumber = 1 //holds the current question number
-let playerScore = 100  //holds the player score
+let playerScore = 50  //holds the player score
 let wrongAttempt = 0 //amount of wrong answers picked by player
 let indexNumber = 0 //will be used in displaying next question
-let imagee = ['assets/img/Image3.png', 'assets/img/Image4.png' , 'assets/img/Image5.png' , 'assets/img/Image6.png' , 'assets/img/Image7.png' , 'assets/img/Image8.png' , 'assets/img/Image9.png' , 'assets/img/Image10.png' , 'assets/img/Image11.png' , 'assets/img/Image12.png' ];
-let identt = ['Image3', 'Image4' , 'Image5','Image6','Image7','Image8','Image9','Image10','Image11','Image12'];
-var i = 0;
+
 // function for displaying next question in the array to dom
 //also handles displaying players and quiz information to dom
 function NextQuestion(index) {
@@ -191,12 +189,12 @@ function checkForAnswer() {
     options.forEach((option) => {
         if (option.checked === true && option.value === currentQuestionAnswer) {
             document.getElementById(correctOption).style.backgroundColor = "green"
-            playerScore++ //adding to player's score
+            playerScore+=100 //adding to player's score
             
-            
+            setTimeout(() => {
              
             document.getElementById('doc-modal').style.display = "flex"  
-               
+        }, 1000)   
              
                 
             indexNumber++;//adding 1 to index so has to display next question..
@@ -221,7 +219,7 @@ function checkForAnswer() {
             document.getElementById(wrongLabelId).style.backgroundColor = "red"
            // document.getElementById(correctOption).style.backgroundColor = "green"
             wrongAttempt++ //adds 1 to wrong attempts 
-            //indexNumber++
+            playerScore -= 50 
             
             //set to delay question number till when next question loads
             document.getElementById('reanswer-modal').style.display = "flex"
@@ -312,12 +310,7 @@ function handleEndGame() {
 
 //closes score modal, resets game and reshuffles questions
 function closeScoreModal() {
-    questionNumber = 1
-    playerScore= 0
-    wrongAttempt = 0
-    indexNumber = 0
-    shuffledQuestions = []
-    NextQuestion(indexNumber)
+   
     document.getElementById('score-modal').style.display = "none"
 }
 

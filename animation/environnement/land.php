@@ -1,3 +1,5 @@
+
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -58,7 +60,7 @@
               <li><a href="#"><img style="width: 35px" src="https://cdn-icons-png.flaticon.com/512/2076/2076783.png">Weather</a></li>
             </ul>
           </li>
-          <li><a class="nav-link scrollto" href="#"  style="color:rgb(81, 179, 42);">High score</a></li>
+         
           <li><a class="nav-link scrollto" href="#contact"  style="color:rgb(81, 179, 42);">Contact</a></li>
         
         </ul>

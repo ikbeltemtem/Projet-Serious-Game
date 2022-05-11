@@ -1,10 +1,12 @@
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>Environnement</title>
   <link rel="stylesheet" href="style.css">
   <link rel="stylesheet" href="stylebutton.css">
 </head>
@@ -18,7 +20,7 @@
   </h1>
  <div> <img src="1319683.png" class="img" ></div>
   
-  <span><a href="land.html"></a></span>
+  <span><a href="land.php"></a></span>
 </div>
 
 </body>
